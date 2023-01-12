@@ -1,16 +1,17 @@
-import './App.css';
-import Menu from './components/Menu';
-import TasksSection from './components/TasksSection/TasksSection';
-import AccountData from './components/AccountData';
+import "./App.css";
+import Menu from "./components/Menu";
+import TasksSection from "./components/TasksSection/TasksSection";
+import AccountData from "./components/AccountData";
+import React from "react";
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="bg-slate-200 min-h-screen text-slate-600 grid grid-cols-7">
+    <div className="bg-slate-200 min-h-screen text-slate-600 grid grid-cols-11">
       <Menu />
       <TasksSection />
       <AccountData />
     </div>
   );
-}
+};
 
 export default App;
