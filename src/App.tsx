@@ -1,4 +1,3 @@
-import "./App.css";
 import Menu from "./components/Menu";
 import TasksSection from "./components/TasksSection/TasksSection";
 import AccountData from "./components/AccountData";
